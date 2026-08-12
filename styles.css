@@ -39,15 +39,9 @@ img {
 .site-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 22px var(--gutter);
   gap: 12px;
-}
-
-.logo {
-  font-size: 30px;
-  font-weight: 500;
-  letter-spacing: -0.02em;
 }
 
 .site-nav {
@@ -144,12 +138,6 @@ img {
 @media (max-width: 600px) {
   .project-grid {
     grid-template-columns: 1fr;
-  }
-
-  .site-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
   }
 
   .site-footer {
